@@ -7,6 +7,7 @@ class Clubs extends Component {
         const { clubs } = this.props;
         return (
             <div>
+                {/* TODO: one line display three cards, not done yet */}
                 <CardGroup className="container col-md-12">
                     {clubs.map(club => (
                         <Club key={club.id} club={club} />

@@ -18,7 +18,7 @@ class Club extends Component {
                 <Card.Body>
                     <Card.Title>{this.props.club.title}</Card.Title>
                     <Card.Text style={descriptionStyle}>{this.props.club.description}</Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary">More</Button>
                 </Card.Body>
             </Card>
         );
