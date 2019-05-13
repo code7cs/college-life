@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Clubs from "./components/Clubs";
+import Navbar from "./components/Navbar";
 const clubs = require("./data/clubs.json");
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
     render() {
         return (
             <div>
+                <Navbar />
                 <main className="container">
                     <Clubs clubs={this.state.clubs} />
                 </main>

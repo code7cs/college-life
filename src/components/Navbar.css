@@ -1,0 +1,25 @@
+.main-nav {
+  padding-top: 1.2%;
+}
+.nav-link span {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 265%;
+  text-decoration: none !important;
+}
+
+.nav-link:link, .nav-link:visited {
+  text-decoration: none;
+  color: black;
+}
+.nav-home {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 120%;
+}
+
+.secondary-nav{
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.secondary-nav span {
+  padding-left: 5%;
+}
