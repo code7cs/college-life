@@ -1,0 +1,71 @@
+.queryBox{
+  background: whitesmoke;
+  -webkit-box-shadow: 10px 10px 5px -8px rgba(207,196,207,1);
+  -moz-box-shadow: 10px 10px 5px -8px rgba(207,196,207,1);
+  box-shadow: 10px 10px 5px -8px rgba(207,196,207,1);
+}
+
+.articleBox{
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+  width: 262px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 36px 36px 0;
+}
+
+/* Dashboard css */
+
+.dash-section {
+	margin: auto;
+}
+
+.topic-tile {
+	border-radius: 3px;
+	margin: 15px;
+	background: whitesmoke;
+  -webkit-box-shadow: 10px 10px 5px -8px rgba(207,196,207,1);
+  -moz-box-shadow: 10px 10px 5px -8px rgba(207,196,207,1);
+  box-shadow: 10px 10px 5px -8px rgba(207,196,207,1);
+	/* display: flex; */
+}
+
+.tile-contents {
+	display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.tile-topic {
+  width: 90%;
+}
+
+.voting-btns {
+	display: flex;
+	max-width: 100px;
+	flex-direction: column;
+	text-align: center;
+  padding: 10px;
+  justify-content: space-around;
+  max-height: 200px;
+}
+
+.voting-btns i {
+	font-size: 24px;
+}
+
+.upvote i:hover {
+	color: green;
+}
+
+.downvote i:hover {
+	color: red;
+}
+
+.topic-comment {
+	max-width: 100px;
+	margin: auto 0;
+}
